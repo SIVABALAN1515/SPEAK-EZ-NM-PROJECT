@@ -1,24 +1,40 @@
-# SPEAK-EZ-NM-PROJECT SUITE
+# Speech Based Data Entry
 
-This repository contains three mini-projects built using speech and voice-based interaction systems in Python.
+## ✅ Prerequisites
 
-## 📁 Projects
+Make sure you have the following installed:
 
-1. [Voice Based Authentication](./voice%20based%20authentication)  
-   → Secure login system using voice recognition.
+### 🧰 System Requirements
+- Python 3.7 or higher
+- pip (Python package installer)
+- Jupyter Notebook or JupyterLab
 
-2. [Speech Based Search Engine](./speech%20based%20search%20engine)  
-   → Use your voice to perform Google searches.
+### 📦 Required Python Libraries
 
-3. [Speech Based Data Entry](./speech%20based%20data%20entry)  
-   → Input data into forms using voice commands.
+Install the following libraries using pip:
 
-## 🛠 Technologies Used
-- Python 3
-- Jupyter Notebook
+```bash
+pip install SpeechRecognition pyaudio numpy scikit-learn
+```
+
+> 🔧 Note:
+> - On some systems, you may need to install `portaudio` first before installing `pyaudio`.
+> - You can install Jupyter using: `pip install notebook`
+
+
+## 📋 Overview
+A voice-enabled system to fill out text-based fields using your microphone.
+
+## 🧠 Features
+- Takes spoken input
+- Converts to text
+- Automatically inserts into predefined form fields or variables
+
+## 🚀 How to Run
+- Open `speech based data entry.ipynb` in Jupyter.
+- Speak your entries when prompted.
+
+## 📦 Dependencies
 - SpeechRecognition
 - PyAudio
-- Webbrowser (for search)
-- Numpy, Sklearn (for some voice processing tasks)
-
- 
+- Python 3.x

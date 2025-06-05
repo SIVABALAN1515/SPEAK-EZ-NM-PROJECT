@@ -21,16 +21,4 @@ This repository contains three mini-projects built using speech and voice-based 
 - Webbrowser (for search)
 - Numpy, Sklearn (for some voice processing tasks)
 
-## 📦 Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/q.git
-   cd q
-   ```
-
-2. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-> Each subfolder has its own README with details.
+ 
